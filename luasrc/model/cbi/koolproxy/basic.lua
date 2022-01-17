@@ -75,11 +75,11 @@ e:value(0, translate("关闭"))
 e:value(1, translate("开启"))
 e.default = 0
 
---e = t:option(ListValue, "koolproxy_ipv6", translate("IPv6支持"))
---e.rmempty = false
---e:value(0, translate("关闭"))
---e:value(1, translate("开启"))
---e.default = 0
+e = t:option(ListValue, "koolproxy_ipv6", translate("IPv6支持"))
+e.rmempty = false
+e:value(0, translate("关闭"))
+e:value(1, translate("开启"))
+e.default = 0
 
 e = t:option(Value, "koolproxy_bp_port", translate("例外端口"))
 e.description = translate("单端口:80&nbsp;&nbsp;多端口:80,443")
